@@ -5,7 +5,7 @@ let testReCaptcha = async () => {
     const page = await browser.newPage();
 
 		// change depending on prod or dev
-    await page.goto('http://localhost:9000/');
+    await page.goto('http://localhost:8000/');
 
 		// Enter postcode text into the input field
 		await page.type('#vehicleLookup-registration-undefined', "1AB2BK");
